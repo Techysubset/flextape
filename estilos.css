@@ -1,0 +1,25 @@
+body {
+  background-color: white;
+}
+
+#CAJA {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#container {
+  background-color: grey;
+  color: black;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 30%;
+  width: 30%;
+
+  .menu {
+    background-color: white;
+    color: black;
+  }
+}
