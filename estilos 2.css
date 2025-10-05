@@ -1,0 +1,156 @@
+body {
+  font-family: "Inter", Arial, sans-serif;
+  color: #111;
+  background-color: #fff;
+}
+#caja {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#container {
+  background-color: grey;
+  color: black;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+#Menu {
+  background-color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+#Profile {
+  background-color: gray;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+#Contact {
+  background-color: gray;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+#texto {
+  text-align: center;
+  padding: 3px 1rem 2px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#texto h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+#tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+#fornite {
+  background-color: rgb(193, 193, 193);
+
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+#roblox {
+  background-color: rgb(193, 193, 193);
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+#noseme {
+  background-color: rgb(193, 193, 193);
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+#ocurrionadamas {
+  background-color: rgb(193, 193, 193);
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+#gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 2rem auto;
+  max-width: 1000px;
+  padding: 0 1rem;
+}
+
+.caja {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.imagen {
+  flex: 1;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+#cita {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+#h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 0.5rem;
+}
+
+#p {
+  color: #777;
+  font-size: 1rem;
+}
+
+#footer {
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  font-size: 0.9rem;
+  color: #666;
+  max-width: 1000px;
+  margin: 0 auto;
+}
