@@ -1,7 +1,7 @@
 body {
   font-family: "Inter", Arial, sans-serif;
   color: #111;
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.416);
 }
 #caja {
   display: flex;
